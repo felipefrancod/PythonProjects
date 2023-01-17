@@ -1,0 +1,79 @@
+{
+    "module": "soporte_casos_de_uso",
+    "dest_database": "db_trusted_soporte_casos_de_uso",
+    "dest_table_name": "trips",
+    "src_tables": [
+        {
+            "database": "db_landing_soporte_casos_de_uso",
+            "table_name": "trips"
+        }
+    ],
+    "mappings": [
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "region",
+            "src_type": "string",
+            "dest_name": "region",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "region",
+            "last_update": "2023-01-17"
+        },
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "origin_coord",
+            "src_type": "string",
+            "dest_name": "origin_coord",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "origin_coord",
+            "last_update": "2023-01-17"
+        },
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "destination_coord",
+            "src_type": "string",
+            "dest_name": "destination_coord",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "destination_coord",
+            "last_update": "2023-01-17"
+        },
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "datetime",
+            "src_type": "string",
+            "dest_name": "datetime",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "datetime",
+            "last_update": "2023-01-17"
+        },
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "datasource",
+            "src_type": "string",
+            "dest_name": "datasource",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "datasource",
+            "last_update": "2023-01-17"
+        },
+        {
+            "src_database": "db_landing_soporte_casos_de_uso",
+            "src_table_name": "trips",
+            "src_name": "input_file_name",
+            "src_type": "string",
+            "dest_name": "input_file_name",
+            "dest_type": "string",
+            "is_used": true,
+            "dest_name_old": "input_file_name",
+            "last_update": "2023-01-17"
+        }
+    ]
+}
